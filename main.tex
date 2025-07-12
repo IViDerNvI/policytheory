@@ -1,0 +1,54 @@
+\documentclass{article}
+
+
+%%%%%%%%%%%%%%%%%
+%
+% Packages here
+%
+%%%%%%%%%%%%%%%%%
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{ctex}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{tcolorbox}
+\usepackage{fontspec}
+\usepackage[colorlinks=true, linkcolor=blue]{hyperref}
+\usepackage{graphicx}
+
+
+%%%%%%%%%%%%%%%%%%%
+%
+% Fonts here
+%
+%%%%%%%%%%%%%%%%%%%
+\setCJKmainfont{simsun.ttc}[Path=fonts/, BoldFont=simhei.ttf, ItalicFont=simkai.ttf]
+\setCJKmonofont{simfang.ttf}[Path=fonts/]
+
+
+%%%%%%%%%%%%%%%%%%%%
+%
+% Title here
+%
+%%%%%%%%%%%%%%%%%%%%
+\title{标题}
+\author{作者}
+\date{\today}
+
+
+%%%%%%%%%%%%%%%%%%%%
+%
+% Document here
+%
+%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\input{sections/sectionA/sectionA.tex}
+
+\end{document}
